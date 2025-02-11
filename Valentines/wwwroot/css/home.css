@@ -17,6 +17,15 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-family: "SVN-Coder'sCrux", sans-serif;
+    color: #e8adc1; /* Text color */
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Optional shadow for better effect */
+    font-size: 64px;
+    text-align: center;
+}
+
 .button1 {
     font-family: "SVN-Coder'sCrux", sans-serif;
     width: 140px;
