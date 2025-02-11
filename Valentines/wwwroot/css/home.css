@@ -5,6 +5,7 @@
 
 body {
     background-image: url("../images/background.png");
+    text-align: center;
 }
 
 h1 {
@@ -15,3 +16,49 @@ h1 {
     font-size: 96px;
     text-align: center;
 }
+
+.button1 {
+    font-family: "SVN-Coder'sCrux", sans-serif;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    background-color: #00bf00;
+    color: black;
+    border: solid;
+    border-width: 2px;
+    border-radius: 18px;
+    font-size: 64px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+    .button1:hover {
+        background-color: #0056b3;
+    }
+
+.button2 {
+    font-family: "SVN-Coder'sCrux", sans-serif;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+    background-color: #e06666;
+    color: black;
+    border: solid;
+    border-width: 2px;
+    border-radius: 18px;
+    font-size: 64px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+}
+
+    .button2:hover {
+        background-color: #0056b3;
+    }
+
+    
+
+

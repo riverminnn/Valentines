@@ -8,5 +8,12 @@ namespace Valentines.Controllers
         {
             return View();
         }
+        [HttpGet]
+        public IActionResult HeheYes()
+        {
+            // Handle the logic for HeheYes action here
+            ViewBag.Message = "Yay! Linhbeo said Yes!";
+            return View();
+        }
     }
 }
